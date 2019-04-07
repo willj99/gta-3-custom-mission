@@ -1,7 +1,7 @@
 # What is Interception?
 <img src="screen/int1.jpg" style="border-radius: 10px;"/>
 
-**Interception** is a faux-custom mission for Grand Theft Auto III, I say faux-custom mission because it isn't defined via Main.scm, but it emulates the experience of a custom mission 100%, like any CLEO mission would. 
+**Interception** is a CLEO custom mission for Grand Theft Auto III, It isn't defined via Main.scm, but it emulates the experience of a custom mission 100%, like any CLEO mission would. It does NOT contribute to main game statistics. 
 
 # Installation
 Playing **Interception** requires the CLEO library for Grand Theft Auto III, you can get it here (https://cleo.li)
@@ -16,6 +16,7 @@ Playing **Interception** requires the CLEO library for Grand Theft Auto III, you
 - The source demonstrates how special actors are loaded and removed.
 - Clearly defined way of assigning FXT keys and making use of them through text opcodes.
 - Makes use of various vital CLEO techniques.
+- Tutorial section included in this repository.
 
 # Decompiling the code
 The code can be decompiled with Sanny Builder. Visit (https://www.sannybuilder.com/index.html) to download it.
