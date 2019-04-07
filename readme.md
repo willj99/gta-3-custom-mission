@@ -1,5 +1,6 @@
 # What is Interception?
 <img src="screen/int1.jpg" style="border-radius: 10px;"/>
+
 **Interception** is a faux-custom mission for Grand Theft Auto III, I say faux-custom mission because it isn't defined via Main.scm, but it emulates the experience of a custom mission 100%, like any CLEO mission would. 
 
 # Installation
