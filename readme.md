@@ -18,6 +18,6 @@ Playing interception requires the CLEO library for Grand Theft Auto III, you can
 # Screenshots
 <img src="screen/int2.png"/>
 <img src="screen/download.png"/>
-<img src="screen/download(1).png"/>
-<img src="screen/download(2).png"/>
-<img src="screen/download(3).png"/>
+<img src="screen/download (1).png"/>
+<img src="screen/download (2).png"/>
+<img src="screen/download (3).png"/>
