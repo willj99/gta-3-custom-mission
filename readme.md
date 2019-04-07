@@ -5,7 +5,7 @@
 
 # Installation
 Playing **Interception** requires the CLEO library for Grand Theft Auto III, you can get it here (https://cleo.li)
-- Drag and drop the contents of the archive to your CLEO folder.
+- Drag and drop the contents of the ***interception2.rar*** archive to your CLEO folder.
 - Head to the marker in Staunton by Kenji's casino to play the mission.
 
 # What knowledge can I get out of this?
