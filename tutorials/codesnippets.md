@@ -8,11 +8,11 @@
 6. Bind marker to pickup
 7. Load/Unload Special Actors
 
-# Creating FXT Keys
+# 1. Creating FXT Keys
 FXT keys are strings which can be used in game, the FXT format is part of the CLEO library. A key is the ID of a string. They are formatted like this.
 
         KEY_01 This is FXT key number 1
-**An FXT key can have a maximum of 7 characters. [KEY_01]**
+**A key can have a maximum of 7 characters. e.g.: [KEY_100]**
 
 ## How to create an .FXT file, and create a key (GTA III).
 You don't need any software for this, just make sure the game you're working with (GTA 3, VC, SA) has the CLEO library installed. 
@@ -33,7 +33,7 @@ The creation of FXT keys is simple and effective. FXT keys are useful because:
 - Easier to edit, don't require special software.
 - Part of the CLEO library.
 
-# Binding a health bar to an actor
+# 2. Binding a health bar to an actor
 This tutorial assumes you know how to create an actor within the game's world in GTA III. 
 
 In this example our loaded actor is #LI_MAN1. 
@@ -63,7 +63,7 @@ In this example our loaded actor is #LI_MAN1.
         :ending
         0000: NOP
         
-# Checking if the player is within a sphere radius, while on-foot. 
+# 3. Checking if the player is within a sphere radius, while on-foot. 
 This can be achieved through two ways, we can continually check if the player is in the radius, if not the game won't pass to the next label.
 
         :create_sphere
@@ -99,19 +99,18 @@ Or, we can do this through a low-level style syntax like Rockstar. E.g.:
 
         :condition_notpassed
         wait 0
-        00BC: text_highpriority 'GET_IN' 5000 ms 1 // Get in the radius.
         jump @condition
 
         :condition_passed
         0000: NOP
         03BD: destroy_sphere 01@
 
-It's clear to see the top one is more concise and easier to read. For instances like getting out of a required vehicle, lower level syntax techniques are more suitable.
+It's clear to see the top one is more concise and easier to read. For instances like getting out of a required vehicle, lower level syntax techniques may be more suitable, it's all down to personal preference. 
 
-# Binding markers to locations
+# 4. Binding markers to locations
 
-# Binding markers to actors
+# 5. Binding markers to actors
 
-# Binding markers to pickups
+# 7. Binding markers to pickups
 
-# Loading and unloading special actors
+# 8. Loading and unloading special actors
