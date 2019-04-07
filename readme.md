@@ -13,11 +13,12 @@ Playing **Interception** requires the CLEO library for Grand Theft Auto III, you
 - This mission also shows you how to implement fixed and smooth transitional cameras.
 - **Interception** also demonstrates failure conditions, and how to emulate the experience of a mission via cutscenes, fade-in/fade-out and the correct lettering styles. 
 - A lot of Grand Theft Auto: III opcodes and operations are interchangable with Grand Theft Auto: Vice City.
-- Demonstrates how special actors are loaded and removed.
-- Source code shows you how to use various vital CLEO techniques.
+- The source demonstrates how special actors are loaded and removed.
+- Clearly defined way of assigning FXT keys and making use of them through text opcodes.
+- Makes use of various vital CLEO techniques.
 
 # Decompiling the code
-The code can be decompiled with Sanny Builder. 
+The code can be decompiled with Sanny Builder. Visit (https://www.sannybuilder.com/index.html) to download it.
 
 # Screenshots
 <img src="screen/int2.png" style="border-radius: 10px;"/>
